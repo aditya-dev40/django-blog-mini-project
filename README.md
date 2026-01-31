@@ -1,48 +1,57 @@
-# django-blog-mini-project
+# Django Blog Mini Project
 
-Django Blog Mini Project
+A Django-based mini blog application built as a learning project to understand core Django concepts such as authentication, models, forms, media handling, and template rendering.
 
-This is a mini blog application built while learning Django fundamentals.
-The project focuses on understanding core Django concepts such as authentication, models, forms, file uploads, and template rendering.
+---
 
-Features
+## 🚀 Features
 
-User registration, login, and logout using Django’s built-in authentication system
+- User registration, login, and logout using Django’s built-in authentication system
+- Auth-protected post creation (only logged-in users can create posts)
+- Blog posts with title, body, slug, author, date, and banner image
+- Image upload support using Django media files
+- Post listing and individual post detail pages
+- Clean, readable URLs using slug-based routing
+- Form validation using Django ModelForms
+- Template inheritance for reusable layouts
+- Custom styling using static CSS files
 
-Auth-protected post creation (only logged-in users can create posts)
+---
 
-Blog posts with title, body, slug, author, date, and banner image
+## 🛠 Tech Stack
 
-Image upload support using Django media files
+- **Backend:** Django
+- **Frontend:** HTML, CSS (Django Templates)
+- **Database:** SQLite
+- **Authentication:** Django Auth System
 
-Post listing and individual post detail pages
+---
 
-Clean URL routing with slugs
+## 📚 Concepts Practiced
 
-Form validation using Django ModelForms
+- Django models, views, and URL routing
+- User authentication and authorization (`login_required`)
+- Django forms and ModelForms
+- File uploads (MEDIA files)
+- Template inheritance and context rendering
+- CSRF protection
+- Basic CRUD operations
 
-Template inheritance and reusable layouts
+---
 
-Static file styling with custom CSS
+## ⚠️ Notes
 
-Concepts Practiced
+- Static and media files are served only in development (`DEBUG = True`)
+- This project is intended for learning purposes and is not production-ready
 
-Django views, models, and URL routing
+---
 
-Authentication & authorization (login_required)
+## 📌 Future Improvements
 
-Django forms and ModelForms
+- Auto-generate unique slugs from post titles
+- Add edit and delete functionality for posts
+- Improve UI and responsive design
+- Deploy the application
 
-File uploads (MEDIA files)
+---
 
-Template inheritance and context rendering
-
-CSRF protection
-
-Basic CRUD workflow
-
-Notes
-
-Static and media files are served only in development (DEBUG=True)
-
-This project is intended for learning purposes and is not production-ready
