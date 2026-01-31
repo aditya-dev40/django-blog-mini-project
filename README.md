@@ -4,7 +4,7 @@ A Django-based mini blog application built as a learning project to understand c
 
 ---
 
-## 🚀 Features
+## Features
 
 - User registration, login, and logout using Django’s built-in authentication system
 - Auth-protected post creation (only logged-in users can create posts)
@@ -18,7 +18,7 @@ A Django-based mini blog application built as a learning project to understand c
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Backend:** Django
 - **Frontend:** HTML, CSS (Django Templates)
@@ -27,7 +27,7 @@ A Django-based mini blog application built as a learning project to understand c
 
 ---
 
-## 📚 Concepts Practiced
+## Concepts Practiced
 
 - Django models, views, and URL routing
 - User authentication and authorization (`login_required`)
@@ -39,14 +39,14 @@ A Django-based mini blog application built as a learning project to understand c
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 - Static and media files are served only in development (`DEBUG = True`)
 - This project is intended for learning purposes and is not production-ready
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 - Auto-generate unique slugs from post titles
 - Add edit and delete functionality for posts
