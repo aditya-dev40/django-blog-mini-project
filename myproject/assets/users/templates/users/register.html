@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block title %}
+    register
+{% endblock %}
+
+{% block content %}
+    <h1>register</h1>
+    <form class="form-with-validation" action="/users/register/" method="post">
+        {% csrf_token %} {% comment %}  its a security major provided by django to valadite that the  
+                                        from is submitted by us.                 {% endcomment %}
+        {{ form }}
+        <button class="form-submit" >Submit</button>
+    </form>
+
+{% endblock %}
